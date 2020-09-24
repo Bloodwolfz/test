@@ -1,0 +1,62 @@
+{
+  "_id": "gf9jCQYjod5GHTz9",
+  "name": "Weather",
+  "sort": 100000,
+  "flags": {
+    "better-rolltables": {},
+    "exportSource": {
+      "world": "echos-nightmare",
+      "system": "dnd5e",
+      "coreVersion": "0.6.5",
+      "systemVersion": 0.94
+    }
+  },
+  "description": "",
+  "results": [
+    {
+      "_id": "uPt0IqrcyHQgAPx5",
+      "flags": {},
+      "type": 0,
+      "text": "Worst Weather: Visibility to 30ft - 60ft, Half Travel Speed, Gain +1 Exhaustion",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "oqd8az2ObAtlFVdl",
+      "flags": {},
+      "type": 0,
+      "text": "Drizzle, Overcast or mostly clear weather, not affecting travel.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        2,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "bimMNg2wiBRHw3tB",
+      "flags": {},
+      "type": 0,
+      "text": "Perfect Weather: Allows Advantage on Perception Checks, Travel 4-8 Miles Extra",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    }
+  ],
+  "formula": "1d7",
+  "replacement": true,
+  "displayRoll": true
+}
